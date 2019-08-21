@@ -2,20 +2,20 @@
 
 *** Debian 8 & Ubuntu 16.X ***
 
-Required ZIP for each system is uploaded.
-
 Clone files to system
 ~~~~
 git clone https://github.com/INUI-Dev/IPTV.git
 ~~~~
 
-cd to IPTV folder and mv files to root
+cd to IPTV then desired OS folder and mv files to root
 ~~~~
 cd IPTV
-mv installA.sh ../
-mv installB.sh ../
-mv update.sh ../ 
-mv streamerupdate.sh ../ 
+cd Debian or Ubuntu
+mv installA.sh ../../
+mv installB.sh ../../
+mv update.sh ../../ 
+mv streamerupdate.sh ../../
+cd
 ~~~~
 
 chmod file to 755
